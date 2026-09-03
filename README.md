@@ -1,31 +1,45 @@
-# VCF Gauge — お問い合わせ・不具合報告 / Issue Tracker
+# VCF Gauge — 課題管理 / Issue Tracker
 
-このリポジトリは、船舶補油支援アプリ **VCF Gauge** の**お問い合わせ窓口**です。
-不具合の報告と機能のご要望を [Issues](../../issues) で受け付けています。
+船舶補油支援アプリ **VCF Gauge** の課題管理用リポジトリです。
+**アプリ本体のソースコードは含まれません。**
 
-**アプリ本体のソースコードはここには含まれません。**
-
-> This repository is the issue tracker for **VCF Gauge**, an iOS app that supports
-> marine bunkering operations. Bug reports and feature requests are accepted in
-> [Issues](../../issues). The app's source code is not hosted here.
+> Issue tracker for **VCF Gauge**, an iOS app that supports marine bunkering operations.
+> The app's source code is not hosted here.
 
 ---
 
-## 報告のしかた / How to report
+## 📮 不具合の報告・ご要望はこちらから / Report a problem
 
-1. まず [Issues](../../issues) を開き、**同じ内容が既に報告されていないか**を確認してください
-2. 無ければ **New issue** を押し、「不具合の報告」か「機能のご要望」を選んでください
-3. 表示される項目を埋めて送信してください
+### → **[報告フォームを開く / Open the form](https://tally.so/r/BzRqyK)**
 
-> 1. Check [Issues](../../issues) first — the same thing may already be reported.
-> 2. If not, press **New issue** and choose "Bug report" or "Feature request".
-> 3. Fill in the form and submit.
+**GitHubアカウントは不要です。** アプリの「サポート」画面からも同じフォームを開けます。
+そちらから開くと、アプリのバージョンと端末の情報が自動で入るので、**どの画面で何をしたかを書くだけ**で送れます。
+
+> **No GitHub account is needed.** The same form opens from the app's Support screen, where
+> the app version and device details are filled in automatically.
+
+いただいた内容は開発者のみが確認します（このリポジトリには自動では載りません）。
+
+> Submissions are seen only by the developer and are not posted here automatically.
 
 ---
 
-## ⚠️ 書かないでほしいこと / Please do not include
+## このリポジトリの使い方 / How this repository is used
 
-Issue は**誰でも読める公開の場**です。次のものは書かないでください。
+フォームで受け取った報告のうち、対応するものを開発者が Issue として起票し、
+状況（未着手・対応中・完了）をここで管理しています。
+**外部の方が直接 Issue を立てる必要はありません**（そのためのフォームです）。
+
+> The developer files issues here from the reports received through the form, and tracks
+> their status. External contributors do not need to open issues directly.
+
+進捗を見たい方は [Issues](../../issues) をご覧ください。
+
+---
+
+## ⚠️ 実データの扱い / About real data
+
+フォーム・Issue のいずれでも、次のものは書かないでください。
 
 - **実際の船名・会社名・BDNの数量**（取引に関わる情報です）
 - 乗組員の氏名、連絡先などの個人情報
@@ -35,22 +49,10 @@ Issue は**誰でも読める公開の場**です。次のものは書かない�
 （例: 実際が `1,847.263 MT` なら `1,000.000 MT` と書く）。
 桁が同じであれば、桁数に起因する不具合はそのまま再現できます。
 
-> Issues are **public**. Do not post real vessel or company names, BDN quantities,
-> personal information, or screenshots containing real data. If you need to show a
-> number, replace it with a dummy value **of the same magnitude** — that is enough to
+> Whether in the form or in an issue, please do not include real vessel or company names,
+> BDN quantities, personal information, or screenshots containing real data. If you need to
+> show a number, replace it with a dummy value **of the same magnitude** — that is enough to
 > reproduce digit-related problems.
-
----
-
-## 添えていただけると助かること / What helps
-
-- **アプリのバージョン**（アプリ内 サポート → アプリについて → バージョン）
-- **どの画面で、どの操作をしたか**（例: ダッシュボード → 記録の入力 → 「この記録を保存」）
-- **どうなると思ったか / 実際にどうなったか**
-- 端末（例: iPhone 15 Pro）と iOS のバージョン
-
-> The app version (Support → About → Version), which screen and which action, what you
-> expected versus what happened, and your device and iOS version.
 
 ---
 
@@ -67,8 +69,7 @@ Issue は**誰でも読める公開の場**です。次のものは書かない�
 
 VCF Gauge は**完全にオフラインで動作**します。入力された記録は端末内にのみ保存され、
 外部のサーバーへ送信されることはありません。
-このリポジトリに情報が載るのは、**利用者ご自身が Issue に書いたときだけ**です。
+情報が外へ出るのは、**利用者ご自身が報告フォームに書いたときだけ**です。
 
-> VCF Gauge works entirely offline. Records are stored only on the device and are never
-> sent to any server. Information appears in this repository only when a user writes it
-> in an issue themselves.
+> VCF Gauge works entirely offline. Records are stored only on the device and are never sent
+> to any server. Information leaves the app only when a user writes it in the report form.
