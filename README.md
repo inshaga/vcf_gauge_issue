@@ -1,11 +1,11 @@
-# Bunker App — お問い合わせ・不具合報告 / Issue Tracker
+# VCF Gauge — お問い合わせ・不具合報告 / Issue Tracker
 
-このリポジトリは、船舶補油支援アプリ **Bunker App** の**お問い合わせ窓口**です。
+このリポジトリは、船舶補油支援アプリ **VCF Gauge** の**お問い合わせ窓口**です。
 不具合の報告と機能のご要望を [Issues](../../issues) で受け付けています。
 
 **アプリ本体のソースコードはここには含まれません。**
 
-> This repository is the issue tracker for **Bunker App**, an iOS app that supports
+> This repository is the issue tracker for **VCF Gauge**, an iOS app that supports
 > marine bunkering operations. Bug reports and feature requests are accepted in
 > [Issues](../../issues). The app's source code is not hosted here.
 
@@ -65,10 +65,10 @@ Issue は**誰でも読める公開の場**です。次のものは書かない�
 
 ## プライバシー / Privacy
 
-Bunker App は**完全にオフラインで動作**します。入力された記録は端末内にのみ保存され、
+VCF Gauge は**完全にオフラインで動作**します。入力された記録は端末内にのみ保存され、
 外部のサーバーへ送信されることはありません。
 このリポジトリに情報が載るのは、**利用者ご自身が Issue に書いたときだけ**です。
 
-> Bunker App works entirely offline. Records are stored only on the device and are never
+> VCF Gauge works entirely offline. Records are stored only on the device and are never
 > sent to any server. Information appears in this repository only when a user writes it
 > in an issue themselves.
