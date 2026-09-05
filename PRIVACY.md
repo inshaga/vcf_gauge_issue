@@ -2,7 +2,7 @@
 
 **VCF Gauge**（船舶補油支援アプリ）
 
-最終更新日：2026年9月3日 / Last updated: 3 September 2026
+最終更新日：2026年9月5日 / Last updated: 5 September 2026
 
 ---
 
@@ -204,10 +204,11 @@ EU一般データ保護規則（GDPR）、英国GDPR、日本の個人情報保�
 
 ## 8. 子どもの利用について / Children
 
-本アプリは船舶の補油作業に用いる業務用ツールであり、**16歳未満の子どもを対象としていません**。子どもから意図的に情報を収集することはありません。子どもの情報が送信されたことが判明した場合は、速やかに削除します。
+本アプリは船舶の補油作業に用いる**業務用ツールであり、子どもの利用を想定していません**。また、本アプリは利用者の年齢を問わず、**いかなる個人情報も収集しません**（第2章のとおり、入力された内容はすべて端末内にのみ保存されます）。したがって、子どもから情報を収集することもありません。
 
-> This is a professional tool for marine bunkering operations. It is **not directed at children under
-> 16** and does not knowingly collect their information.
+> This is a professional tool for marine bunkering operations and is **not intended for use by
+> children**. It collects **no personal information from any user**, regardless of age — everything
+> entered stays on the device (see section 2) — and therefore collects none from children either.
 
 ---
 
